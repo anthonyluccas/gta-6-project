@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <title>GTA VI</title>
+</head>
+
+<body>
+
+    <p class="character-name">Lucia</p>
+    <img class="character-image" src="./img/lucia.png" alt="Foto do Personagem">
+
+    <div class="text-container">
+
+        <p class="selector">Selecione o seu Personagem</p>
+        <h1>Não é só <br> um Jogo</h1>
+        <p class="subtext">Escolha uma lenda de Dev City. Ou tire uma selfie e vire uma.</p>
+
+    </div>
+
+    <div class="button-container">
+
+        <img onclick="chooseCharacter('Lucia', 'img/lucia.png', '#ff3cac')" class="avatar" src="img/lucia.png">
+        <img onclick="chooseCharacter('Jason', 'img/jason.png', '#00b2c9')" class="avatar" src="img/jason.png">
+        <img onclick="chooseCharacter('CJ', 'img/cj.png', '#7ed37e')" class="avatar" src="img/cj.png">
+
+        <button class="select-image">📸</button>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
