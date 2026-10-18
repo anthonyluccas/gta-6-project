@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+body {
+    background-image: url('./img/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* Container principal */
+
+
+.character-name {
+    color: #ff3cac;
+    font-size: 360px;
+    position: absolute;
+    text-align: center;
+    bottom: 560px;
+    width: 100%;
+}
+
+.character-image {
+    position: absolute;
+    bottom: 0;
+    height: 700px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+
+/* Container de textos */
+
+
+.text-container {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.selector {
+    font-size: 26px;
+    color: #ffd319;
+}
+
+h1 {
+    font-size: 72px;
+    color: #fff;
+}
+
+.subtext {
+    font-size: 15px;
+    color: #fff;
+}
+
+
+/* Container de botões */
+
+
+.button-container {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #fff;
+}
+
+.select-image {
+    background-color: #ffd319;
+    padding: 20px;
+    border-radius: 50%;
+}
