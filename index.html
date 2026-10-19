@@ -32,9 +32,14 @@
         <img onclick="chooseCharacter('Jason', 'img/jason.png', '#00b2c9')" class="avatar" src="img/jason.png">
         <img onclick="chooseCharacter('CJ', 'img/cj.png', '#7ed37e')" class="avatar" src="img/cj.png">
 
-        <button class="select-image">📸</button>
+        <label class="select-image">📸
+            <input type="file" accept="image/*" hidden onchange="photoSelect(this)">
+        </label>
     </div>
+
 </body>
+
+<script src="https://js.puter.com/v2/"></script>
 <script src="script.js"></script>
 
 </html>
