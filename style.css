@@ -86,3 +86,68 @@ h1 {
     padding: 20px;
     border-radius: 50%;
 }
+
+/* Tablets */
+
+@media (max-width: 1023px) {
+    .character-name {
+        font-size: 250px;
+        bottom: 500px;
+    }
+
+    .character-image {
+        position: absolute;
+        bottom: 0;
+        height: 600px;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .selector {
+        font-size: 20px;
+        color: #ffd319;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        right: 25px;
+        width: auto;
+    }
+}
+
+/* Celulares */
+
+@media (max-width: 767px) {
+    .character-name {
+        font-size: 150px;
+        bottom: auto;
+    }
+
+    .character-image {
+        bottom: 0;
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .text-container {
+        display: none;
+    }
+
+    .button-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        left: 0;
+        bottom: 20px;
+    }
+}
